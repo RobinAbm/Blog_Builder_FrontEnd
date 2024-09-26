@@ -1,0 +1,49 @@
+.individual-blog-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.individual-blog-heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.individual-blog-author,
+.individual-blog-date {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.individual-blog-content {
+  line-height: 1.6;
+  margin-top: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.43);
+  text-align: left;
+  padding: 1rem;
+}
+
+
+
+.delete-blog-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 9rem;
+}
+
+.delete-blog-btn:hover {
+  background-color: #0056b3;
+}
+
+

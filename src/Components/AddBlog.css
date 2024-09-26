@@ -1,0 +1,55 @@
+.add-blog-main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .51);
+  margin-top: 5rem;
+ 
+}
+
+.add-blog-input {
+  margin-bottom: 20px;
+}
+
+.add-blog-textarea {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.add-blog-input label {
+  font-weight: bold;
+}
+
+.add-blog-input input[type="text"],
+.add-blog-input input[type="date"],
+.add-blog-textarea textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+.add-blog-textarea textarea {
+  resize: vertical; 
+  
+}
+
+.add-blog-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 16rem;
+}
+
+.add-blog-btn:hover {
+  background-color: #0056b3;
+}
